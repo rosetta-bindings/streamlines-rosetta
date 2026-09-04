@@ -1,0 +1,9 @@
+build/
+dist/
+extern/
+bindings/
+gen/
+
+*.exe
+generator
+.DS_Store

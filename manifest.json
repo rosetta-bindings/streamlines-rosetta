@@ -1,0 +1,24 @@
+{
+    "variables": [
+        { "name": "P2996", "value": "$ENV{HOME}/devs/c++/clang-p2996" },
+        { "name": "stream", "value": "./extern/streamlines" }
+    ],
+
+    "cpp26_root": "$p2996/build",
+    "cpp26_cxx" : "$p2996/build/bin/clang++",
+    "cpp26_cc"  : "$p2996/build/bin/clang",
+    "cpp26_lib" : "$p2996/build/lib",
+
+    "rosetta_include": "./extern/rosetta/include",
+    "generator_name" : "streamlines",
+    "module_name"    : "streamlines",
+    "targets"        : [
+        { "lang": "nanobind", "name": "streamlines", "wheel": true, "wheel_dir": "./dist"}
+    ],
+    
+    "namespace"   : "streamlines",
+    "user_include": ["$stream/include"],
+    "user_sources": ["$stream/src/*.cxx"],
+    "classes"     : [{ "header": "**/*.h", "exclude": "streamlines3d/streamlines3d.h" }],
+    "functions"   : []
+}
