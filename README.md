@@ -1,5 +1,9 @@
 # Python binding for [Surface Streamlines](https://github.com/LookUpGeoscience/surface-streamlines)
 
+<p align="center">
+  <img src="screen.jpg" alt="rosetta" width="600">
+</p>
+
 ## Build
 
 ```bash

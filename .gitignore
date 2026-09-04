@@ -7,3 +7,4 @@ gen/
 *.exe
 generator
 .DS_Store
+__pycache__
